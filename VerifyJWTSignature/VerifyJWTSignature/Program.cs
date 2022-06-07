@@ -27,8 +27,8 @@ namespace VerifyJWTSignature
                 rsa.ImportParameters(
                   new RSAParameters()
                   {
-                  Modulus = FromBase64Url(modulus),
-                      Exponent = FromBase64Url(exponent)
+                        Modulus = FromBase64Url(modulus),
+                        Exponent = FromBase64Url(exponent)
                   });
 
                 var validationParameters = new TokenValidationParameters
