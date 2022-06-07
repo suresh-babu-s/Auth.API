@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.32407.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.API", "Auth.API\Auth.API.csproj", "{C53B360B-6DD9-4751-BE8D-DECA6EE8A3DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VerifyJWTSignature", "..\VerifyJWTSignature\VerifyJWTSignature\VerifyJWTSignature.csproj", "{FA6E3C4A-2A0F-4A95-84A0-76D187306731}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{C53B360B-6DD9-4751-BE8D-DECA6EE8A3DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C53B360B-6DD9-4751-BE8D-DECA6EE8A3DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C53B360B-6DD9-4751-BE8D-DECA6EE8A3DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA6E3C4A-2A0F-4A95-84A0-76D187306731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA6E3C4A-2A0F-4A95-84A0-76D187306731}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA6E3C4A-2A0F-4A95-84A0-76D187306731}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA6E3C4A-2A0F-4A95-84A0-76D187306731}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
